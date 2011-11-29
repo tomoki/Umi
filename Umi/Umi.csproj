@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A7E83AC-8707-428A-BA20-F47E8177952C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Umi</RootNamespace>
+    <AssemblyName>Umi</AssemblyName>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <Description>Umi is programming Language.
+It's written in C#.
+</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Evaluator.cs" />
+    <Compile Include="Lexer.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="TokenMap.cs" />
+    <Compile Include="TokenType.cs" />
+    <Compile Include="IO\LexerReader.cs" />
+    <Compile Include="Tree\Node.cs" />
+    <Compile Include="Tree\NumberNode.cs" />
+    <Compile Include="Tree\OPNode.cs" />
+    <Compile Include="UmiException.cs" />
+    <Compile Include="Tree\BlockNode.cs" />
+    <Compile Include="Tree\SymbolNode.cs" />
+    <Compile Include="Tree\AssignNode.cs" />
+    <Compile Include="Tree\StringNode.cs" />
+    <Compile Include="Tree\ArgumentsNode.cs" />
+    <Compile Include="Tree\ParametersNode.cs" />
+    <Compile Include="Tree\FunctionNode.cs" />
+    <Compile Include="Tree\TrueNode.cs" />
+    <Compile Include="Tree\FalseNode.cs" />
+    <Compile Include="Tree\IfNode.cs" />
+    <Compile Include="Tree\CompareNode.cs" />
+    <Compile Include="Tree\NegativeNode.cs" />
+    <Compile Include="Tree\PositiveNode.cs" />
+    <Compile Include="Tree\IfElseNode.cs" />
+    <Compile Include="Tree\ElseNode.cs" />
+    <Compile Include="Tree\ElifNode.cs" />
+    <Compile Include="Tree\WhileNode.cs" />
+    <Compile Include="Tree\NotNode.cs" />
+    <Compile Include="Tree\SystemNode.cs" />
+    <Compile Include="Tree\MethodNode.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <MonoDevelop.Autotools.MakefileInfo RelativeMakefileName="Makefile" SyncReferences="true">
+          <BuildFilesVar Sync="true" Name="FILES" />
+          <DeployFilesVar />
+          <ResourcesVar Sync="true" Name="RESOURCES" />
+          <OthersVar />
+          <GacRefVar Sync="true" Name="REFERENCES" />
+          <AsmRefVar Sync="true" Name="REFERENCES" />
+          <ProjectRefVar Sync="true" Name="REFERENCES" />
+        </MonoDevelop.Autotools.MakefileInfo>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Umi/Evaluator.cs">
+    <Files>
+      <File FileName="Umi/Tree/ParametersNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/FalseNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/AssignNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/StringNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Parser.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/OPNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/NumberNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/BlockNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/SymbolNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/IfNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/Node.cs" Line="1" Column="1" />
+      <File FileName="Umi/UmiException.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/ArgumentsNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/SystemNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/FunctionNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/NegativeNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Main.cs" Line="1" Column="1" />
+      <File FileName="Umi/Evaluator.cs" Line="13" Column="28" />
+      <File FileName="Umi/Tree/TrueNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Lexer.cs" Line="1" Column="1" />
+      <File FileName="Umi/TokenType.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/EqualNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/CompareNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/PositiveNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/TokenMap.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/IfElseNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/ElseNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/ElifNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/WhileNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/NotNode.cs" Line="1" Column="1" />
+      <File FileName="Umi/IO/LexerReader.cs" Line="1" Column="1" />
+      <File FileName="Umi/Tree/MethodNode.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
