@@ -1,0 +1,13 @@
+i = 1;
+while(i <= 15){
+    if(i%15==0){
+        system.print("FizzBuzz");
+    }elif(i%5==0){
+        system.print("Buzz");
+    }elif(i%3==0){
+        system.print("Fizz");
+    }else{
+        system.print(i);
+    }
+    i = i + 1;
+};
