@@ -8,6 +8,6 @@ while(i <= 15){
         system.print("Fizz");
     }else{
         system.print(i);
-    }
+    };
     i = i + 1;
 };
